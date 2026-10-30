@@ -1,0 +1,42 @@
+{
+  "raw_records": 132648,
+  "clean_records": 132506,
+  "train_records": 76437,
+  "test_records": 27937,
+  "test_positive_rate": 0.3988617245946236,
+  "roc_auc": 0.6718706674117523,
+  "pr_auc": 0.5853340949038648,
+  "f1_at_05": 0.473658457021693,
+  "precision_top_decile": 0.7158196134574087,
+  "nyc_rain_bins": {
+    "0": {
+      "avg_flood_complaints": 41.782786885245905,
+      "days": 244
+    },
+    "0–5": {
+      "avg_flood_complaints": 46.48529411764706,
+      "days": 68
+    },
+    "5–20": {
+      "avg_flood_complaints": 84.2,
+      "days": 40
+    },
+    ">20": {
+      "avg_flood_complaints": 237.23076923076923,
+      "days": 13
+    }
+  },
+  "istanbul_oct14_mm": 167.8,
+  "istanbul_max_daily_mm": 167.8,
+  "dem_bounds_lonlat": [
+    28.911805544444462,
+    41.03097223333333,
+    29.04236110000002,
+    41.10097223333333
+  ],
+  "dem_shape": [
+    252,
+    470
+  ],
+  "terrain_index_median": 19.708552327447997
+}
